@@ -16,3 +16,9 @@ El resultado es [[211.74376]]fahrenheit
 Gráfica de la función de pérdida.
 
 <img width="717" height="482" alt="image" src="https://github.com/user-attachments/assets/1dd9b87d-b74f-4902-8d21-10907a291a63" />
+
+---
+esto es un ejemplo para un entrenamiento con una función lineal tal que así:
+
+Farenheiht = Celcius * 1.8 + 32
+y = mx + b (esta sería la función lineal)
