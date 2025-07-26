@@ -1,5 +1,6 @@
 import tensorflow as tf # librería para inteligencia artificial hecha por google
 import numpy as np # para trabajar fácilmente con arreglos numéricos
+import matplotlib.pyplot as plt
 
 celcius = np.array([-40, -10, 0, 8, 15, 22, 38], dtype=float) # arreglo de números que contiene las 7 entradas de grados celcuis
 fahrenheit = np.array([-40, 14, 32, 46, 59, 72, 100], dtype=float) # resultados en grados fahrenheit
@@ -30,3 +31,11 @@ Además, se le pasa verbose=False para que no retorne tanta información al esta
 '''
 historial = modelo.fit(celcius, fahrenheit, epochs=1000, verbose=False)
 print("Modelo entrenado")
+
+'''
+Antes de intentar predecir algo, se van a visualizar los datos de la función de perdida
+'''
+
+plt.xlabel("# Epoca")
+plt.ylabel("Magnitud de perdida")
+plt.plot(historial.history["loss"])
