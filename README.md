@@ -8,3 +8,8 @@ C:\Users\Zamch\Desktop\qqq\coding\ai_machine_learning\Venv\Lib\site-packages\ker
 To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
 Comenzamos el entrenamiento...
 Modelo entrenado
+
+---
+Gráfica de la función de pérdida.
+
+<img width="717" height="482" alt="image" src="https://github.com/user-attachments/assets/1dd9b87d-b74f-4902-8d21-10907a291a63" />
