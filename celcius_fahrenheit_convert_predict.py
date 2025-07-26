@@ -39,3 +39,8 @@ Antes de intentar predecir algo, se van a visualizar los datos de la función de
 plt.xlabel("# Epoca")
 plt.ylabel("Magnitud de perdida")
 plt.plot(historial.history["loss"])
+
+# predicción:
+print("predicción 1")
+resultado = modelo.predict(np.array([[100.0]]))
+print('El resultado es ' + str(resultado) + 'fahrenheit')
