@@ -44,3 +44,5 @@ plt.plot(historial.history["loss"])
 print("predicción 1")
 resultado = modelo.predict(np.array([[100.0]]))
 print('El resultado es ' + str(resultado) + 'fahrenheit')
+
+# comentario random
